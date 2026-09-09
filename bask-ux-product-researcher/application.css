@@ -1,0 +1,12 @@
+
+.bask-ai-proposal { display: grid; grid-template-columns: .8fr 1.2fr; gap: 48px; padding-top: 56px; padding-bottom: 70px; }
+.bask-ai-proposal h2 { font-size: clamp(30px, 3.2vw, 44px); line-height: 1.12; letter-spacing: -.045em; margin: 12px 0 24px; }
+.bask-ai-proposal p { max-width: 560px; line-height: 1.65; }
+.bask-ai-proposal figure { margin: 0; }
+.bask-ai-proposal img { width: 100%; height: auto; border: 1px solid #ced5d4; border-radius: 12px; }
+.bask-ai-proposal figcaption { font-size: 13px; margin-top: 12px; line-height: 1.5; }
+@media (max-width: 760px) { .bask-ai-proposal { grid-template-columns: 1fr; gap: 28px; } }
+/* Keep the full slide visible in narrow download previews. */
+@media (max-width: 640px) {
+  .download-preview--deck img { width: 100%; min-width: 0; max-width: 240px; height: auto; object-fit: contain; }
+}
