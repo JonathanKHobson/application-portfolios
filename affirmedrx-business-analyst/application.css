@@ -1,0 +1,11 @@
+
+.affirmedrx-proposal { padding-top: 56px; padding-bottom: 70px; }
+.affirmedrx-proposal h2 { max-width: 750px; font-size: clamp(30px, 3.2vw, 44px); line-height: 1.12; letter-spacing: -.045em; margin: 12px 0 24px; }
+.affirmedrx-proposal p { max-width: 750px; line-height: 1.65; }
+.affirmedrx-proposal ol { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 48px; padding: 0; list-style: none; counter-reset: issue-step; }
+.affirmedrx-proposal li { border-top: 1px solid #bfcac2; padding-top: 18px; counter-increment: issue-step; line-height: 1.65; }
+.affirmedrx-proposal li::before { content: '0' counter(issue-step); display: block; color: #244d3c; font-weight: 700; margin-bottom: 8px; }
+.affirmedrx-proposal h3 { font-size: 21px; margin: 0 0 10px; }
+.affirmedrx-proposal .boundary { font-size: 15px; color: #46574c; margin-top: 30px; }
+@media (max-width: 760px) { .affirmedrx-proposal ol { grid-template-columns: 1fr; gap: 22px; } }
+@media (max-width: 640px) { .download-preview--deck img { width: 100%; min-width: 0; max-width: 240px; height: auto; object-fit: contain; } }
