@@ -1,0 +1,2 @@
+
+@media (max-width: 640px) { .download-preview--deck img { width: 100%; min-width: 0; max-width: 240px; height: auto; object-fit: contain; } }
